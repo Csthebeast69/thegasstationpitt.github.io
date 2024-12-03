@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Gas Station</title>
+    <meta name="description" content="Welcome to The Gas Station - your one-stop shop for everything cannabis-related in Pittsburgh.">
+    <meta name="keywords" content="hemp, cannabis, THCA, edibles, Pittsburgh, cannabis accessories, THC">
+    <meta name="author" content="Casey Steele">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="The Gas Station Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>Welcome to The Gas Station!</h1>
+            <p>Your one-stop shop for the finest cannabis products in Pittsburgh.</p>
+        </section>
+
+        <section id="shop">
+            <h2>Featured Products</h2>
+            <div class="products">
+                <div class="product">
+                    <img src="product1.jpg" alt="Product 1">
+                    <h3>Product Name</h3>
+                    <p>Description of the product.</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="product2.jpg" alt="Product 2">
+                    <h3>Product Name</h3>
+                    <p>Description of the product.</p>
+                    <button>Add to Cart</button>
+                </div>
+                <!-- Add more products as needed -->
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 The Gas Station. All rights reserved.</p>
+    </footer>
+
+    <!-- Begin Google Sites section -->
+    <div class="Xpil1b xgQ6eb"></div>
+    <footer jsname="yePe5c"></footer>
+    <div jscontroller="j1RDQb" jsaction="rcuQ6b:rcuQ6b;MxH79b:JdcaS;FaOgy:XuHpsb;" class="dZA9kd ynRLnc" data-last-updated-at-time="1733115512212" data-is-preview="false">
+        <div role="button" class="U26fgb JRtysb WzwrXb I12f0b K2mXPb zXBiaf ynRLnc" jscontroller="iSvg6e" jsaction="click:cOuCgd; mousedown:UX7yZ; mouseup:lbsD7e; mouseenter:tfO1Yc; mouseleave:JywGue; focus:AHmuwe; blur:O22p3e; contextmenu:mg9Pef;touchstart:p6p2H; touchmove:FwuNnf; touchend:yfqBxc(preventDefault=true); touchcancel:JMtRjd;;keydown:I481le;" jsshadow jsname="Bg3gkf" aria-label="Site actions" aria-disabled="false" tabindex="0" aria-haspopup="true" aria-expanded="false" data-menu-corner="bottom-start" data-anchor-corner="top-start">
+            <div class="NWlf3e MbhUzd" jsname="ksKsZd"></div>
+            <span jsslot class="MhXXcc oJeWuf"><span class="Lw7GHd snByac"><svg width="24" height="24" viewBox="0 0 24 24" focusable="false" class=" NMm5M"><path d="M11 17h2v-6h-2v6zm1-15C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zM11 9h2V7h-2v2z"/></svg></span></span>
+        </div>
+    </div>
+    <script nonce="Esu8YK6gx330CI0L3DzmGQ">DOCS_timing['cov']=new Date().getTime();</script>
+    <script src="https://www.gstatic.com/_/atari/_/js/k=atari.vw.en_US.fw_mAcuwUyE.O/am=MBiA/d=1/rs=AGEqA5lwNXFYaHUUDGYHiMqlOO36DqQAOw/m=view" id="base-js" nonce="Esu8YK6gx330CI0L3DzmGQ"></script>
+</div>
+<!-- End Google Sites section -->
+
+</body>
+</html>
